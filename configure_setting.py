@@ -3,7 +3,7 @@
 # Camera
 CAMERA_WIDTH = 640
 CAMERA_HEIGHT = 480
-MIN_FPS = 8  
+MIN_FPS = 0
 
 # MediaPipe
 MODEL_COMPLEXITY = 0  # 0=Lite (for 4GB RAM), 1=Full, 2=Heavy
@@ -23,6 +23,7 @@ BREAK_INTERVAL = 1800  # Suggest break every 30 min
 RECORD_EVERY = 5  # Log data every 5 seconds
 
 # Display colors (BGR format)
+COLOR_TEXT = (255, 255, 255)  # White
 COLOR_GOOD = (0, 255, 0)  # Green
 COLOR_FAIR = (0, 165, 255)  # Orange
 COLOR_BAD = (0, 0, 255)  # Red
